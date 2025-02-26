@@ -1,42 +1,53 @@
+/* General styling */
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
-.para,
-.small-para {
-  color: hsl(0, 0%, 0%);
-  font-weight: 800;
+/* Large bold text */
+.large {
+  font-size: 24px;
+  font-weight: 900; /* Extra bold */
 }
 
-.small-para {
-  font-size: 14px;
-  font-weight: 800;
+/* Small bold text */
+.small {
+  font-size: 18px;
+  font-weight: 900;
 }
 
-.para {
-  font-size: 22px;
+/* Thin text for divs */
+.thin {
+  font-size: 18px;
+  font-weight: 300; /* Thin text */
 }
 
+/* Bold child div */
+.child {
+  font-size: 16px;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+/* Buttons */
+button {
+  font-size: 16px;
+  padding: 5px 10px;
+  border: 2px solid black;
+  margin: 5px;
+  cursor: pointer;
+}
+
+/* Confirm button - green background */
 .confirm {
-  background: green;
+  background-color: green;
   color: white;
   font-weight: bold;
-} 
-
-.button {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  font-size: 20px;
 }
 
-.child {
-  color: rgb(0, 0, 0);
-  font-weight: 800;
-  font-size: 14px;
+/* Cancel button - default */
+.cancel {
+  background-color: white;
 }
 
-div.text {
-  color: rgb(0, 0, 0);
-  font-size: 22px;
-  font-weight: 100;
-}
